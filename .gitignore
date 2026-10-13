@@ -1,3 +1,17 @@
 .env
 library/
 postgres/
+
+# Backup secrets
+.restic-pass
+rclone.conf
+*.key
+*.pem
+
+# LUKS header backups
+luks-header*
+seagate-luks-header*
+*.img
+
+# Logs
+*.log
